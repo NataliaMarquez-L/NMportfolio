@@ -633,7 +633,7 @@ footer {
 #projects {
     padding: 50px 15px;
     border-bottom: 1px solid $border;
-    text-align: center;
+    text-align: left;
 
     h2 {
         color: $heading;
@@ -657,18 +657,20 @@ footer {
 .project-info {
     position: absolute;
     top: 50%;
+    text-align: left;
     transform: translateY(-50%);
     margin-left: 300px;
     padding: 15px;
 
-    h3 {
+    h3, h4 {
         font-size: 1.5em;
         font-weight: 300;
         color: $heading;
         margin: 0 0 15px 0;
     }
+    
 
-    p {
+    p, li {
         color: $text;
         margin: 0 0 15px 0;
         font-size: 0.9em;
